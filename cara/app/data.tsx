@@ -9,6 +9,13 @@ import Support from "../public/Images/f6.png";
 // Feature image
 import ShirtImage from "../public/Images/shirt.jpg";
 
+//
+import Crazydeals from "../public/Images/b17.jpg";
+import Springsummer from "../public/Images/b10.jpg";
+import Seasonal from "../public/Images/b7.jpg";
+import Footware from "../public/Images/b4.jpg";
+import Tshirts from "../public/Images/b18.jpg";
+
 // navbar item
 export const TopbarItem = [
   {
@@ -183,3 +190,42 @@ export const ArrivalData = [
     price: "$78",
   },
 ];
+export const CollectionDualData = [
+  {
+    img: Crazydeals,
+    title: "crazy deals",
+    offer: "buy 1 get 1 free",
+    description: "The best classic dress is on sale at Cara",
+    button: "Learn More",
+  },
+  {
+    img: Springsummer,
+    title: "spring/summer",
+    offer: "upcoming season",
+    description: "The best classic dress is on sale at Cara",
+    button: "Learn More",
+  },
+];
+export const CollectionTrippleData = [
+  {
+    img: Seasonal,
+    title: "SEASONAL SALE",
+    description: "Winter Collection 2023",
+  },
+  {
+    img: Footware,
+    title: "FOOTWARE COLLECTION",
+    description: "Spring/Summer 2023",
+  },
+  {
+    img: Tshirts,
+    title: "T-SHIRTS",
+    description: "Winter Collection 2023",
+  },
+];
+
+// export const contactfooter = [
+//   {
+
+//   }
+// ]
