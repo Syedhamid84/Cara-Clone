@@ -38,10 +38,10 @@ export const TopbarItem = [
     name: "Contact",
     link: "",
   },
-  {
-    name: "Contact",
-    link: "",
-  },
+  // {
+  //   name: "Contact",
+  //   link: "",
+  // },
 ];
 
 export const AboutImages = [

@@ -30,7 +30,38 @@ export const Feature = () => {
               <span className="text-[#374151] text-lg font-bold hover:text-[#187c72]">
                 {item.description}
               </span>
-              <span className="text-[#187c72] font-semibold">{item.price}</span>
+              <div className="relative inline-block ml-1 ">
+                <span className="text-lg text-[#6b7280] w-[100%] "> ★★★★★</span>
+                <span className="text-lg absolute left-0 top-0 w-[70%] text-[#187c72] whitespace-nowrap overflow-hidden ">
+                  {" "}
+                  ★★★★★
+                </span>
+              </div>
+
+              <div className="flex justify-between">
+                <span className="text-[#187c72] font-semibold">
+                  {item.price}
+                </span>
+                <div className="flex justify-center items-center h-8 w-12 rounded-xl bg-[#eaf5d8] ">
+                  <svg
+                    className="w-6 h-6 text-[#187c72]"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6"
+                    />
+                  </svg>
+                </div>
+              </div>
             </div>
           );
         })}
