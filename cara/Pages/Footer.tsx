@@ -6,6 +6,9 @@ import MasterCard from "../public/Images/mastercard.png";
 import Visa from "../public/Images/visa.png";
 import Paypal from "../public/Images/paypal.png";
 import Gpay from "../public/Images/gpay.png";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaPinterestP } from "react-icons/fa6";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -29,9 +32,9 @@ export const Footer = () => {
             Address: <span className="text-[#6b7280] font-light">24/7</span>
           </p>
           <p className="text-[#374151] font-semibold">Follow us</p>
-          <div className="flex">
+          <div className="flex gap-1 items-center">
             <svg
-              className="w-6 h-5 text-[#6b7280] "
+              className="w-5 h-5 text-[#6b7280] "
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -45,6 +48,9 @@ export const Footer = () => {
                 clip-rule="evenodd"
               />
             </svg>
+            <FaXTwitter className="text-[#6b7280] " />
+            <FaInstagram className="text-[#6b7280]" />
+            <FaPinterestP className="" />
 
             <svg
               className="w-5 h-5 text-[#6b7280]"

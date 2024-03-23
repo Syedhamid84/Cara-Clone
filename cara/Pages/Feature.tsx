@@ -31,8 +31,8 @@ export const Feature = () => {
                 {item.description}
               </span>
               <div className="relative inline-block ml-1 ">
-                <span className="text-lg text-[#6b7280] w-[100%] "> ★★★★★</span>
-                <span className="text-lg absolute left-0 top-0 w-[70%] text-[#187c72] whitespace-nowrap overflow-hidden ">
+                <span className="text-lg text-[#6b7280] "> ★★★★★</span>
+                <span className="text-lg absolute left-0 top-0 w-[21.5%] text-[#f97316] whitespace-nowrap overflow-hidden ">
                   {" "}
                   ★★★★★
                 </span>
@@ -42,9 +42,9 @@ export const Feature = () => {
                 <span className="text-[#187c72] font-semibold">
                   {item.price}
                 </span>
-                <div className="flex justify-center items-center h-8 w-12 rounded-xl bg-[#eaf5d8] ">
+                <div className="flex justify-center items-center h-8 w-12 rounded-xl group hover:bg-[#187c72] bg-[#eaf5d8] ">
                   <svg
-                    className="w-6 h-6 text-[#187c72]"
+                    className="w-6 h-6 text-[#187c72] group-hover:text-[#ffffff] "
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

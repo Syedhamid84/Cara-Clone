@@ -29,7 +29,7 @@ export const HeroSection = () => {
         </p>
         <div className="relative">
           <Image alt="buttonImage" src={buttonImage} />
-          <p className="text-xl font-bold text-[#187c72] absolute bottom-3 left-14">
+          <p className="text-xl font-bold text-[#187c72]  absolute bottom-3 left-14">
             Shop Now
           </p>
         </div>

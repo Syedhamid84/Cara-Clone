@@ -48,26 +48,32 @@ export const AboutImages = [
   {
     img: Freeshipping,
     button: "Free Shipping",
+    color: "#dbf4f6",
   },
   {
     img: Onlineorder,
     button: "Online Order",
+    color: "#f3d2e4",
   },
   {
     img: Savemoney,
     button: "Save Money",
+    color: "#eaf5d8",
   },
   {
     img: Promotions,
     button: "Promotions",
+    color: "#b8d9ed",
   },
   {
     img: Happysell,
     button: "Happy Sell",
+    color: "#e3ddf4",
   },
   {
     img: Support,
     button: "F24/7 Support",
+    color: "#f6e5db",
   },
 ];
 
