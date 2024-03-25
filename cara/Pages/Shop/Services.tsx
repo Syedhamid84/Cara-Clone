@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Servicesbackground from "../public/Images/b2.jpg";
+import Servicesbackground from "../../public/Images/b2.jpg";
 
 export const Services = () => {
   return (

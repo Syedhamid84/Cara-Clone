@@ -32,7 +32,7 @@ export const TopbarItem = [
   },
   {
     name: "About",
-    link: "",
+    link: "/About",
   },
   {
     name: "Contact",
