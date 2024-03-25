@@ -1,14 +1,18 @@
+// To inform next js, this is a client component
+"use client";
 import { TopbarItem } from "@/app/data";
-// import React, { useState } from "react";
+import React, { useState } from "react";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const Sidebar = () => {
-  //   const [Open, setopen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const HandleModal = () => {
-    console.log("hello world");
+    setShowModal(!showModal);
   };
   return (
     <div className="bg-[#5eaec9]  p-3 lg:h-auto lg:w-auto w-[50%] ">
       {/* <button onClick={HandleModal}> */}
+      <FaXTwitter onClick={HandleModal} />
       <svg
         className="w-8 h-8 text-[#374151]"
         aria-hidden="true"
@@ -28,16 +32,19 @@ export const Sidebar = () => {
       </svg>
       {/* </button> */}
       <div className="flex flex-col items-start gap-8 px-8 py-12">
-        {TopbarItem.map((item, index) => {
-          return (
-            <div
-              key={index}
-              className="text-[#374151] hover:text-[#8f7d5f] text-2xl font-semibold "
-            >
-              {item.name}
-            </div>
-          );
-        })}
+        {/* {showModal && 
+        } */}
+        {showModal &&
+          TopbarItem.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className="text-[#374151] hover:text-[#8f7d5f] text-2xl font-semibold "
+              >
+                {item.name}
+              </div>
+            );
+          })}
       </div>
     </div>
   );
