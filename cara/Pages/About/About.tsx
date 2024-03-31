@@ -9,12 +9,15 @@ export const About = () => {
         return (
           <div
             key={index}
-            className="flex flex-col gap-4 border border-black rounded-md p-3"
+            className="flex flex-col items-center gap-4 border border-black rounded-md p-3"
           >
             <Image src={item.img} alt="" />
-            <p className="bg-[#5fafca] text-[#187c72] font-semibold text-base rounded-md text-center">
+            <button
+              className="text-[#187c72] font-semibold text-sm rounded-md text-center w-28 p-1"
+              style={{ backgroundColor: item.color }}
+            >
               {item.button}
-            </p>
+            </button>
           </div>
         );
       })}
