@@ -18,7 +18,22 @@ export const HeroSection = () => {
           marginTop: 73,
         }}
       />
-      <div className="flex flex-col gap-2 pt-56 pl-16">
+      {/*  <Image
+        alt="ServiceImage"
+        src={Servicesbackground}
+        placeholder="blur"
+        quality={100}
+        // fill
+        // sizes="100vw"
+        style={
+          {
+            //   objectFit: "cover",
+            // zIndex: 10,
+            //   marginTop: 73,
+          }
+        }
+      /> */}
+      <div className="flex flex-col gap-2 pt-56 pl-16 ">
         <p className="text-xl font-semibold ml-1 text-[#374151]">
           Trade-in-offer
         </p>

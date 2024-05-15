@@ -20,15 +20,15 @@ export const Services = () => {
           }
         }
       />
-      <div className="flex flex-col gap-4 items-center absolute top-12 left-56 ">
-        <h1 className="text-[#d1d5db] text-2xl font-semibold">
+      <div className="flex flex-col gap-4 items-center justify-center absolute top-0 left-0 right-0 bottom-0 m-auto max-w-[900px] ">
+        <h1 className="text-[#d1d5db] text-xl md:text-2xl font-semibold">
           Repair Services
         </h1>
-        <h1 className="text-[#d1d5db] text-6xl font-semibold ">
+        <h1 className="text-[#d1d5db] text-xl md:text-4xl lg:text-6xl font-semibold ">
           Up to <span className="text-[#dc2626] ">70% OFF</span>- All t-Shirts
         </h1>
-        <button className="bg-[#d1d5db] px-4 py-2  group hover:bg-[#187c72]">
-          <span className="text-[#474151] text-lg font-semibold group-hover:text-[#FFFFFF] ">
+        <button className="bg-[#d1d5db] px-3 py-1 md:px-4 md:py-2  group hover:bg-[#187c72]">
+          <span className="text-[#474151] text-sm md:text-md lg:text-lg font-semibold group-hover:text-[#FFFFFF] ">
             Explore More{" "}
           </span>
         </button>

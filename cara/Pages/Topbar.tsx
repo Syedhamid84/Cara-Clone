@@ -6,10 +6,10 @@ import LogoImage from "../public/Images/logo.png";
 
 export const Topbar = () => {
   return (
-    <div className="flex justify-between w-full fixed bg-[#5fafca] py-4 px-16 z-10 ">
+    <div className="flex justify-between w-full fixed bg-[#5fafca] py-4 px-16 ">
       <Image src={LogoImage} alt="" height={150} width={150} />
 
-      <div className="flex justify-around items-center w-1/2 ">
+      <div className="hidden md:flex gap-8 justify-around items-center max-w-1/2">
         {TopbarItem.map((item, index) => {
           return (
             <div
