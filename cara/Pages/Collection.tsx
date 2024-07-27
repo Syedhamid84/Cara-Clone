@@ -7,7 +7,7 @@ import React from "react";
 export const Collection = () => {
   return (
     <div className="mt-12 py-8 px-12">
-      <div className="flex gap-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {CollectionDualData.map((item, index) => {
           return (
             <div key={index} className="relative">
@@ -19,7 +19,6 @@ export const Collection = () => {
                 style={{
                   objectFit: "cover",
                   zIndex: -1,
-                  // marginTop: 73,
                 }}
               />
               <div className="flex flex-col gap-3 absolute top-24 left-8 group">
@@ -41,7 +40,7 @@ export const Collection = () => {
         })}
       </div>
 
-      <div className="mt-12 flex gap-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 mt-12 gap-4">
         {CollectionTrippleData.map((item, index) => {
           return (
             <div key={index} className="relative">
@@ -50,7 +49,7 @@ export const Collection = () => {
                 alt=""
                 width={580}
                 height={580}
-                className="object-cover h-[100%] "
+                className="object-cover h-[100%] w-full "
               />
               <div className="flex flex-col gap-3 absolute top-24 left-8">
                 <span className="text-xl text-[#ffffff] font-medium ">

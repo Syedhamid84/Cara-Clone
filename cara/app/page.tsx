@@ -19,9 +19,9 @@ export default function Home() {
       <Services />
       <Arrival />
       <Collection />
-      <Newsletter />
-      <Footer />
-      <Sidebar />
+      {/* <Newsletter /> */}
+      {/* <Footer /> */}
+      {/* <Sidebar /> */}
     </div>
   );
 }
