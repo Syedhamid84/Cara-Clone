@@ -40,7 +40,7 @@ export const Collection = () => {
         })}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-12 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 mt-12 gap-4">
         {CollectionTrippleData.map((item, index) => {
           return (
             <div key={index} className="relative">
@@ -51,11 +51,11 @@ export const Collection = () => {
                 height={580}
                 className="object-cover h-[100%] w-full "
               />
-              <div className="flex flex-col gap-3 absolute top-24 left-8">
-                <span className="text-xl text-[#ffffff] font-medium ">
+              <div className="flex flex-col absolute top-1/2 left-0 md:left-5 -translate-x-0 -translate-y-1/2  ">
+                <span className="text-sm md:text-lg lg:text-xl text-[#ffffff] font-light md:font-normal lg:font-medium">
                   {item.title}
                 </span>
-                <span className="text-base text-[#ffffff] font-thin">
+                <span className="text-xs md:text-sm lg:text-base font-light md:font-normal lg:font-medium text-[#f87171] ">
                   {item.description}
                 </span>
               </div>
