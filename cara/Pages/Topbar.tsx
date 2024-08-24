@@ -1,5 +1,4 @@
 import { TopbarItem } from "@/app/data";
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import LogoImage from "../public/Images/logo.png";
