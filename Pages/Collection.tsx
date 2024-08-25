@@ -6,29 +6,30 @@ import React from "react";
 
 export const Collection = () => {
   return (
-    <div className="mt-12 py-8 px-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="mt-12 py-8 px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         {CollectionDualData.map((item, index) => {
           return (
-            <div key={index} className="relative">
+            <div key={index} className="relative ">
               <Image
                 src={item.img}
                 alt=""
                 height={620}
                 width={620}
+                className="h-full w-full"
                 style={{
                   objectFit: "cover",
                   zIndex: -1,
                 }}
               />
-              <div className="flex flex-col gap-3 absolute top-24 left-8 group">
-                <span className="text-xl text-[#ffffff] font-medium ">
+              <div className="flex flex-col gap-3 absolute top-1/2 left-0 md:left-5 -translate-x-0 -translate-y-1/2 group pl-4">
+                <span className="text-sm md:text-lg lg:text-xl text-[#ffffff] font-light md:font-normal lg:font-medium">
                   {item.title}
                 </span>
-                <span className="text-xl text-[#ffffff] font-extrabold">
+                <span className="text-sm md:text-2xl lg:text-4xl text-[#ffffff] font-bold">
                   {item.offer}
                 </span>
-                <span className="text-base text-[#ffffff] font-thin">
+                <span className="text-xs md:text-sm lg:text-xl font-light md:font-normal lg:font-medium text-[#ffffff]">
                   {item.description}
                 </span>
                 <button className="w-28 py-1 px-2 text-base text-[#ffffff] border-2 border-[#ffffff] group-hover:bg-[#187c72] group-hover:border-none">
@@ -51,7 +52,7 @@ export const Collection = () => {
                 height={580}
                 className="object-cover h-[100%] w-full "
               />
-              <div className="flex flex-col absolute top-1/2 left-0 md:left-5 -translate-x-0 -translate-y-1/2  ">
+              <div className="flex flex-col absolute top-1/2 left-0 md:left-5 -translate-x-0 -translate-y-1/2 pl-4">
                 <span className="text-sm md:text-lg lg:text-xl text-[#ffffff] font-light md:font-normal lg:font-medium">
                   {item.title}
                 </span>

@@ -14,9 +14,9 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
   // console.log(currentYear, "cureent date is ");
   return (
-    <div className=" px-6 py-10 ">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 bg-black  ">
-        <div className="max-w-[240px] bg-red-300 ">
+    <div className=" px-20 py-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className=" ">
           <h1 className="text-[#374151] font-semibold my-4 ">Contact</h1>
           <p className="text-[#374151] font-semibold">
             Address:{" "}
@@ -70,7 +70,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="list-none max-w-[240px] bg-green-400">
+        <div className="list-none ">
           <h1 className="text-[#374151] font-semibold my-4">About</h1>
           <li className="text-[#6b7280] font-light text-sm mt-1">About Us</li>
           <li className="text-[#6b7280] font-light text-sm mt-1">
@@ -85,7 +85,7 @@ export const Footer = () => {
           <li className="text-[#6b7280] font-light text-sm mt-1">Contact Us</li>
         </div>
 
-        <div className="list-none flex flex-col gap-1 max-w-[240px] bg-yellow-300">
+        <div className="list-none flex flex-col gap-1">
           <h1 className="text-[#374151] font-semibold my-4">My Account</h1>
           <li className="text-[#6b7280] font-light text-sm">View Cart</li>
           <li className="text-[#6b7280] font-light text-sm">Sign in</li>
@@ -98,27 +98,27 @@ export const Footer = () => {
           <li className="text-[#6b7280] font-light text-sm mt-1">Help</li>
         </div>
 
-        <div className="max-w-[240px] flex flex-col gap-1 bg-blue-200">
+        <div className="w-full flex flex-col gap-1">
           <h1 className="text-[#374151] font-semibold my-4">Install App</h1>
           <p className="text-[#6b7280] font-light">
             From App Store or Google Play
           </p>
-          <div className="flex gap-2 w-40 bg-red-300">
-            <Image src={GooglePlay} alt="" width={112} />
-            <Image src={AppStore} alt="" width={112} />
+          <div className="flex gap-2 w-40">
+            <Image src={GooglePlay} alt="" className="w-24 md:w-28" />
+            <Image src={AppStore} alt="" className="w-24 md:w-28" />
           </div>
           <p className="text-[#6b7280] font-light mt-1">
             Secured Payment Gateway
           </p>
           <div className="flex gap-1 w-40 ">
-            <Image src={MasterCard} alt="" width={56} />
-            <Image src={Visa} alt="" width={56} />
-            <Image src={Paypal} alt="" width={56} />
-            <Image src={Gpay} alt="" width={56} />
+            <Image src={MasterCard} alt="" className="w-12 md:w-16" />
+            <Image src={Visa} alt="" className="w-12 md:w-16" />
+            <Image src={Paypal} alt="" className="w-12 md:w-16" />
+            <Image src={Gpay} alt="" className="w-12 md:w-16" />
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center  bg-red-400 ">
+      <div className="flex items-center justify-center ">
         <p className="text-[#9ca3af] text-base ">
           © <span className="text-base ">{currentYear}</span> Click Here for
           Developer's Github
