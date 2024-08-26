@@ -4,7 +4,7 @@ import { AboutImages } from "@/app/data";
 
 export const About = () => {
   return (
-    <div className="flex justify-center items-center md:justify-between  px-12 py-6 w-full flex-wrap gap-4 mt-4">
+    <div id="about" className="flex justify-center items-center md:justify-between  px-12 py-6 w-full flex-wrap gap-4 mt-4">
       {AboutImages.map((item, index) => {
         return (
           <div

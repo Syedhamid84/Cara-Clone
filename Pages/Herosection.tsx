@@ -4,7 +4,7 @@ import buttonImage from "../public/Images/button.png";
 import Image from "next/image";
 export const HeroSection = () => {
   return (
-    <section className=" mt-[74px]">
+    <section id="home" className=" mt-[74px]">
       <div className="relative">
 
         <Image

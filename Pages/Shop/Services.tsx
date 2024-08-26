@@ -4,7 +4,7 @@ import Servicesbackground from "../../public/Images/b2.jpg";
 
 export const Services = () => {
   return (
-    <div className="mt-16 relative bg-red-200 ">
+    <div id="shop" className="mt-16 relative bg-red-200 ">
       <Image
         alt="ServiceImage"
         src={Servicesbackground}

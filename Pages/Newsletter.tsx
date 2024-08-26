@@ -2,7 +2,7 @@ import React from "react";
 
 export const Newsletter = () => {
   return (
-    <div className="flex flex-col items-center lg:flex-row md:justify-between gap-5 px-20 py-10 mt-12 bg-[#031d42]">
+    <div id="contact" className="flex flex-col items-center lg:flex-row md:justify-between gap-5 px-20 py-10 mt-12 bg-[#031d42]">
       <div className="flex flex-col items-center  max-w-[460px] md:w-[450px]">
         <h1 className="text-xl md:text-2xl text-white font-extrabold ">Sign Up for Newsletter</h1>
         <p className="text-sm md:text-base text-white">

@@ -4,6 +4,7 @@ import { Collection } from "@/Pages/Collection";
 import { Feature } from "@/Pages/Feature";
 import { Footer } from "@/Pages/Footer";
 import { HeroSection } from "@/Pages/Herosection";
+// import Mobilenavbar from "@/Pages/mobilenavbar";
 import { Newsletter } from "@/Pages/Newsletter";
 import { Services } from "@/Pages/Shop/Services";
 // import { Sidebar } from "@/Pages/Sidebar";
@@ -21,6 +22,7 @@ export default function Home() {
       <Collection />
       <Newsletter />
       <Footer />
+      {/* <Mobilenavbar /> */}
       {/* <Sidebar /> */}
     </div>
   );

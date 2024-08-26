@@ -16,27 +16,49 @@ import Seasonal from "../public/Images/b7.jpg";
 import Footware from "../public/Images/b4.jpg";
 import Tshirts from "../public/Images/b18.jpg";
 
+
+
+
+interface TopbaritemNavigation {
+
+  name: string;
+  id: string;
+  current: boolean;
+  offset: number;
+}
+
+
 // navbar item
-export const TopbarItem = [
+export const TopbarItem: TopbaritemNavigation[] = [
   {
     name: "Home",
-    link: "",
+    id: "home",
+    current: true,
+    offset: 0,
   },
   {
     name: "Shop",
-    link: "",
+    id: "shop",
+    current: false,
+    offset: 70,
   },
   {
     name: "Blog",
-    link: "",
+    id: "blog",
+    current: false,
+    offset: 70,
   },
   {
     name: "About",
-    link: "/About",
+    id: "about",
+    current: false,
+    offset: 80,
   },
   {
     name: "Contact",
-    link: "",
+    id: "contact",
+    current: false,
+    offset: 0,
   },
   // {
   //   name: "Contact",

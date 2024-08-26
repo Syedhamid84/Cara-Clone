@@ -6,7 +6,7 @@ import React from "react";
 
 export const Collection = () => {
   return (
-    <div className="mt-12 py-8 px-20">
+    <div id="blog" className="mt-12 py-8 px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         {CollectionDualData.map((item, index) => {
           return (
