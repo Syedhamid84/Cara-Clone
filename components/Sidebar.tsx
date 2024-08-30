@@ -4,7 +4,7 @@ import { TopbarItem } from "@/app/data";
 import React, { useState } from "react";
 import { FaXTwitter } from "react-icons/fa6";
 
-export const Sidebar = () => {
+const Sidebar = () => {
   const [showModal, setShowModal] = useState(false);
   const HandleModal = () => {
     setShowModal(!showModal);
@@ -47,3 +47,4 @@ export const Sidebar = () => {
     </div>
   );
 };
+export default Sidebar;

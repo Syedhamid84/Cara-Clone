@@ -1,14 +1,14 @@
-import { About } from "@/Pages/About/About";
-import { Arrival } from "@/Pages/Arrival";
-import { Collection } from "@/Pages/Collection";
-import { Feature } from "@/Pages/Feature";
-import { Footer } from "@/Pages/Footer";
-import { HeroSection } from "@/Pages/Herosection";
+import About from "@/components/About/About";
+import Arrival from "@/components/Arrival";
+import Collection from "@/components/Collection";
+import Feature from "@/components/Feature";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/Herosection";
 // import Mobilenavbar from "@/Pages/mobilenavbar";
-import { Newsletter } from "@/Pages/Newsletter";
-import { Services } from "@/Pages/Shop/Services";
+import Newsletter from "@/components/Newsletter";
+import Services from "@/components/Shop/Services";
 // import { Sidebar } from "@/Pages/Sidebar";
-import { Topbar } from "@/Pages/Topbar";
+import Topbar from "@/components/Topbar";
 
 export default function Home() {
   return (

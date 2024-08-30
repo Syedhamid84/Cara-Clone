@@ -2,7 +2,7 @@ import { ArrivalData } from "@/app/data";
 import Image from "next/image";
 import React from "react";
 
-export const Arrival = () => {
+const Arrival = () => {
   return (
     <div className="mt-24">
       <h1 className="text-center font-bold text-5xl text-[#374151]">
@@ -68,3 +68,4 @@ export const Arrival = () => {
     </div>
   );
 };
+export default Arrival;

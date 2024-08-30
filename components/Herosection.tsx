@@ -2,7 +2,7 @@ import React from "react";
 import heroImage from "../public/Images/hero.jpg";
 import buttonImage from "../public/Images/button.png";
 import Image from "next/image";
-export const HeroSection = () => {
+const HeroSection = () => {
   return (
     <section id="home" className=" mt-[74px]">
       <div className="relative">
@@ -40,3 +40,4 @@ export const HeroSection = () => {
     </section>
   );
 };
+export default HeroSection;

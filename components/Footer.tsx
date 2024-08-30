@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaPinterestP } from "react-icons/fa6";
 
-export const Footer = () => {
+const Footer = () => {
   const currentYear = new Date().getFullYear();
   // console.log(currentYear, "cureent date is ");
   return (
@@ -120,10 +120,11 @@ export const Footer = () => {
       </div>
       <div className="flex items-center justify-center ">
         <p className="text-[#9ca3af] text-base ">
-          © <span className="text-base ">{currentYear}</span> Click Here for
-          Developer's Github
+          {`©`} <span className="text-base ">{currentYear}</span> Click Here for
+          {`Developer's`} Github
         </p>
       </div>
     </div>
   );
 };
+export default Footer;

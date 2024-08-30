@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Newsletter = () => {
+const Newsletter = () => {
   return (
     <div id="contact" className="flex flex-col items-center lg:flex-row md:justify-between gap-5 px-20 py-10 mt-12 bg-[#031d42]">
       <div className="flex flex-col items-center  max-w-[460px] md:w-[450px]">
@@ -24,3 +24,4 @@ export const Newsletter = () => {
     </div>
   );
 };
+export default Newsletter;

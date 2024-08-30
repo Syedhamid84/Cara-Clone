@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Servicesbackground from "../../public/Images/b2.jpg";
 
-export const Services = () => {
+const Services = () => {
   return (
     <div id="shop" className="mt-16 relative bg-red-200 ">
       <Image
@@ -37,3 +37,4 @@ export const Services = () => {
     </div>
   );
 };
+export default Services;

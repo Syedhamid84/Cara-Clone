@@ -2,7 +2,7 @@ import { FeaturedData } from "@/app/data";
 import Image from "next/image";
 import React from "react";
 
-export const Feature = () => {
+const Feature = () => {
   return (
     <div className="mt-12 px-6">
       <h1 className="text-center font-bold text-5xl text-[#374151]">
@@ -69,3 +69,4 @@ export const Feature = () => {
     </div>
   );
 };
+export default Feature;

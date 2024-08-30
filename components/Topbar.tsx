@@ -7,7 +7,7 @@ import Link from "next/link";
 import Hamburger from "hamburger-react";
 import Mobilenavbar from "./Mobilenavbar";
 
-export const Topbar = () => {
+const Topbar = () => {
   const [open, setOpen] = useState(false);
 
 
@@ -83,3 +83,4 @@ export const Topbar = () => {
 
   );
 };
+export default Topbar;

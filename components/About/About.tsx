@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { AboutImages } from "@/app/data";
 
-export const About = () => {
+const About = () => {
   return (
     <div id="about" className="flex justify-center items-center md:justify-between  px-12 py-6 w-full flex-wrap gap-4 mt-4">
       {AboutImages.map((item, index) => {
@@ -24,3 +24,4 @@ export const About = () => {
     </div>
   );
 };
+export default About;

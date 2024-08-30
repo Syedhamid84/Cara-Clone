@@ -4,7 +4,7 @@ import { CollectionTrippleData } from "@/app/data";
 import Image from "next/image";
 import React from "react";
 
-export const Collection = () => {
+const Collection = () => {
   return (
     <div id="blog" className="mt-12 py-8 px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
@@ -67,3 +67,4 @@ export const Collection = () => {
     </div>
   );
 };
+export default Collection;
