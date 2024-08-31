@@ -36,11 +36,7 @@ const Topbar = () => {
   return (
     <div>
 
-      <div className="flex justify-between w-full fixed left-0 right-0 top-0 bg-[#5fafca] py-4 px-16 z-50">
-        {/* <Link href="/" id="home">
-
-          <Image src={LogoImage} alt="" height={120} width={120} />
-        </Link> */}
+      <div className="flex justify-between w-full fixed left-0 right-0 top-0 bg-[#5fafca] py-4 px-5 md:px-16 z-50">
 
         <NavLogoImage />
 

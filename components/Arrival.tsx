@@ -4,7 +4,7 @@ import React from "react";
 
 const Arrival = () => {
   return (
-    <div className="mt-24">
+    <div className="mt-5 md:mt-12">
       <h1 className="text-center font-bold text-5xl text-[#374151]">
         New Arrival
       </h1>

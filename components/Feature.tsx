@@ -4,7 +4,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="mt-12 px-6">
+    <div className="mt-5 md:mt-12 px-6">
       <h1 className="text-center font-bold text-5xl text-[#374151]">
         Featured Products
       </h1>
