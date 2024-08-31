@@ -6,6 +6,7 @@ import LogoImage from "../public/Images/logo.png";
 import Link from "next/link";
 import Hamburger from "hamburger-react";
 import Mobilenavbar from "./Mobilenavbar";
+import NavLogoImage from "./Topbar/NavLogoImage";
 
 const Topbar = () => {
   const [open, setOpen] = useState(false);
@@ -36,10 +37,12 @@ const Topbar = () => {
     <div>
 
       <div className="flex justify-between w-full fixed left-0 right-0 top-0 bg-[#5fafca] py-4 px-16 z-50">
-        <Link href="" id="home">
+        {/* <Link href="/" id="home">
 
-          <Image src={LogoImage} alt="" height={150} width={150} />
-        </Link>
+          <Image src={LogoImage} alt="" height={120} width={120} />
+        </Link> */}
+
+        <NavLogoImage />
 
         <div className="hidden md:flex gap-8 justify-around items-center max-w-1/2">
           {TopbarItem.map((item, index) => (

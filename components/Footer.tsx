@@ -104,17 +104,17 @@ const Footer = () => {
             From App Store or Google Play
           </p>
           <div className="flex gap-2 w-40">
-            <Image src={GooglePlay} alt="" className="w-24 md:w-28" />
-            <Image src={AppStore} alt="" className="w-24 md:w-28" />
+            <Image src={GooglePlay} alt="GooglePlay" className="w-24 md:w-28" />
+            <Image src={AppStore} alt="AppStore" className="w-24 md:w-28" />
           </div>
           <p className="text-[#6b7280] font-light mt-1">
             Secured Payment Gateway
           </p>
           <div className="flex gap-1 w-40 ">
-            <Image src={MasterCard} alt="" className="w-12 md:w-16" />
-            <Image src={Visa} alt="" className="w-12 md:w-16" />
-            <Image src={Paypal} alt="" className="w-12 md:w-16" />
-            <Image src={Gpay} alt="" className="w-12 md:w-16" />
+            <Image src={MasterCard} alt="MasterCard" className="w-12 md:w-16" />
+            <Image src={Visa} alt="Visa" className="w-12 md:w-16" />
+            <Image src={Paypal} alt="Paypal" className="w-12 md:w-16" />
+            <Image src={Gpay} alt="Gpay" className="w-12 md:w-16" />
           </div>
         </div>
       </div>
